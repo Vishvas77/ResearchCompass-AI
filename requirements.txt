@@ -1,0 +1,10 @@
+langchain
+langchain-openai
+langchain-chroma
+langchain-core
+langgraph
+chromadb
+pydantic
+python-dotenv
+sentence-transformers
+langchain-community
