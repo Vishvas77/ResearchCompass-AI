@@ -1,0 +1,115 @@
+{
+  "description": "Test queries for AcademiMatch RAG retriever evaluation. Each entry has a query, the expected top-1 faculty ID, and acceptable top-3 IDs.",
+  "test_cases": [
+    {
+      "query": "who works on NLP and language models",
+      "mode": "STUDENT",
+      "expected_top1": "prof_01",
+      "acceptable_top3": ["prof_01", "prof_02", "prof_11"],
+      "description": "NLP query should return Sharma (NLP) as #1, Kapoor (IR) in top-3"
+    },
+    {
+      "query": "computer vision medical imaging MRI",
+      "mode": "STUDENT",
+      "expected_top1": "prof_03",
+      "acceptable_top3": ["prof_03", "prof_04", "prof_14"],
+      "description": "Medical CV should rank Mehta above Das (SLAM)"
+    },
+    {
+      "query": "IoT embedded systems sensor networks",
+      "mode": "STUDENT",
+      "expected_top1": "prof_05",
+      "acceptable_top3": ["prof_05", "prof_12", "prof_15"],
+      "description": "IoT query should match Iyer as #1"
+    },
+    {
+      "query": "cybersecurity network attacks malware",
+      "mode": "STUDENT",
+      "expected_top1": "prof_06",
+      "acceptable_top3": ["prof_06", "prof_12", "prof_15"],
+      "description": "Security query should match Reddy #1"
+    },
+    {
+      "query": "cloud computing kubernetes microservices",
+      "mode": "STUDENT",
+      "expected_top1": "prof_10",
+      "acceptable_top3": ["prof_10", "prof_05", "prof_12"],
+      "description": "Cloud query should match Pandey #1"
+    },
+    {
+      "query": "reinforcement learning multi-agent robotics",
+      "mode": "STUDENT",
+      "expected_top1": "prof_08",
+      "acceptable_top3": ["prof_08", "prof_04", "prof_11"],
+      "description": "RL query should match Sundaram #1, Das (CV+robotics) top-3"
+    },
+    {
+      "query": "signal processing 5G MIMO beamforming",
+      "mode": "STUDENT",
+      "expected_top1": "prof_09",
+      "acceptable_top3": ["prof_09", "prof_15", "prof_05"],
+      "description": "5G query should match Nair #1"
+    },
+    {
+      "query": "VLSI chip design hardware accelerator",
+      "mode": "STUDENT",
+      "expected_top1": "prof_14",
+      "acceptable_top3": ["prof_14", "prof_05", "prof_03"],
+      "description": "VLSI query should match Pillai #1"
+    },
+    {
+      "query": "theory algorithms approximation hardness",
+      "mode": "STUDENT",
+      "expected_top1": "prof_13",
+      "acceptable_top3": ["prof_13", "prof_07", "prof_10"],
+      "description": "Theory query should match Mukherjee #1"
+    },
+    {
+      "query": "HCI accessibility human-centered AI",
+      "mode": "STUDENT",
+      "expected_top1": "prof_11",
+      "acceptable_top3": ["prof_11", "prof_01", "prof_08"],
+      "description": "HCI query should match Agarwal #1"
+    },
+    {
+      "query": "data mining graph neural network anomaly detection",
+      "mode": "STUDENT",
+      "expected_top1": "prof_07",
+      "acceptable_top3": ["prof_07", "prof_06", "prof_12"],
+      "description": "Data mining should match Ghosh #1"
+    },
+    {
+      "query": "software engineering cloud DevOps CI/CD",
+      "mode": "STUDENT",
+      "expected_top1": "prof_10",
+      "acceptable_top3": ["prof_10", "prof_05", "prof_12"],
+      "description": "SWE query should match Pandey #1"
+    },
+    {
+      "query": "database distributed consensus streaming",
+      "mode": "STUDENT",
+      "expected_top1": "prof_12",
+      "acceptable_top3": ["prof_12", "prof_10", "prof_15"],
+      "description": "Database query should match Rao #1"
+    },
+    {
+      "query": "computer networks SDN virtualization QoS",
+      "mode": "STUDENT",
+      "expected_top1": "prof_15",
+      "acceptable_top3": ["prof_15", "prof_09", "prof_05"],
+      "description": "Networking query should match Bhatia #1"
+    },
+    {
+      "query": "natural language processing semantic search retrieval augmented generation",
+      "mode": "STUDENT",
+      "expected_top1": "prof_02",
+      "acceptable_top3": ["prof_02", "prof_01", "prof_11"],
+      "description": "Semantic search/RAG should match Kapoor #1"
+    }
+  ],
+  "metrics": {
+    "top1_accuracy": "Fraction of test cases where expected_top1 is the #1 result",
+    "top3_recall": "Fraction of test cases where expected_top1 is in top-3 results",
+    "acceptable_coverage": "Fraction of test cases where all top-3 results are in acceptable_top3"
+  }
+}
