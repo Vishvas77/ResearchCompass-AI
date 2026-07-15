@@ -1,0 +1,13 @@
+{
+  "id": "prof_11",
+  "name": "Dr. Neha Agarwal",
+  "department": "CSE",
+  "research_areas": ["HCI", "UX research", "accessibility", "human-centered AI"],
+  "bio": "Dr. Neha Agarwal directs the Inclusive Design Lab where she investigates how AI-powered interfaces can be made accessible to users with visual and motor impairments. Her group built a screen-reader-optimized conversational agent for rural healthcare workers that reduced task completion time by 40 percent in field trials across Maharashtra. She created a design framework for explainable AI interfaces validated through longitudinal studies with clinicians. Her current NSF-funded project studies how non-technical users build mental models of language model behavior through interactive experimentation.",
+  "keywords": ["HCI", "UX", "accessibility", "human-centered AI", "explainable AI", "screen reader", "conversational agent", "healthcare", "mental models", "design"],
+  "papers": 35,
+  "citations": 1500,
+  "current_projects": 3,
+  "max_projects": 4,
+  "email": "neha.agarwal@university.edu"
+}

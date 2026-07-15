@@ -1,0 +1,13 @@
+{
+  "id": "prof_13",
+  "name": "Dr. Tanya Mukherjee",
+  "department": "CSE",
+  "research_areas": ["Theory of Computation", "algorithms", "approximation algorithms", "computational complexity"],
+  "bio": "Dr. Tanya Mukherjee heads the Theoretical Computer Science group where she works on approximation algorithms for NP-hard combinatorial optimization problems arising in cloud resource allocation and network design. Her paper on a 1.5-approximation for deadline-constrained virtual machine placement under stochastic demand is a standard reference in cloud scheduling. She also studies the complexity of fair division problems, recently proving tight lower bounds for envy-free cake-cutting with connected pieces. She teaches the flagship graduate course on randomized algorithms and runs the university's competitive programming team.",
+  "keywords": ["theory", "algorithms", "approximation", "complexity", "NP-hard", "optimization", "fair division", "resource allocation", "scheduling", "randomized algorithms"],
+  "papers": 30,
+  "citations": 1200,
+  "current_projects": 1,
+  "max_projects": 3,
+  "email": "tanya.mukherjee@university.edu"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "prof_01",
+  "name": "Dr. Priya Sharma",
+  "department": "CSE",
+  "research_areas": ["NLP", "LLMs", "sentiment analysis", "transformer architectures"],
+  "bio": "Dr. Priya Sharma leads the Language Intelligence Lab where she investigates transformer-based language models, with a focus on sentiment analysis across low-resource languages. Her recent work examines failure modes of instruction-tuned models and develops calibration techniques for reducing hallucination in clinical text summarization. She has pioneered a benchmark for evaluating LLM robustness on code-mixed Hindi-English queries. Her group currently explores efficient fine-tuning strategies for domain adaptation under limited compute budgets.",
+  "keywords": ["NLP", "LLM", "sentiment", "transformer", "language model", "BERT", "GPT", "fine-tuning", "hallucination", "low-resource", "code-mixed"],
+  "papers": 67,
+  "citations": 4200,
+  "current_projects": 3,
+  "max_projects": 6,
+  "email": "priya.sharma@university.edu"
+}

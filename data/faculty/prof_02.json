@@ -1,0 +1,13 @@
+{
+  "id": "prof_02",
+  "name": "Dr. Meera Kapoor",
+  "department": "CSE",
+  "research_areas": ["Information Retrieval", "text mining", "semantic search", "knowledge graphs"],
+  "bio": "Dr. Meera Kapoor directs the Semantic Search Lab where she builds retrieval-augmented systems that combine dense vector search with structured knowledge graphs. Her group developed an open-source framework for entity-linking overlong legal documents and a real-time question-answering system deployed at a national judicial portal. Her current work focuses on query intent decomposition for multi-hop reasoning and hybrid sparse-dense retrieval architectures. She regularly organizes shared tasks on legal information extraction at top IR conferences.",
+  "keywords": ["information retrieval", "semantic search", "knowledge graph", "entity linking", "question answering", "RAG", "vector search", "text mining", "legal NLP", "multi-hop reasoning"],
+  "papers": 52,
+  "citations": 3100,
+  "current_projects": 2,
+  "max_projects": 5,
+  "email": "meera.kapoor@university.edu"
+}

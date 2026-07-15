@@ -1,0 +1,13 @@
+{
+  "id": "prof_05",
+  "name": "Dr. Kavita Iyer",
+  "department": "ECE",
+  "research_areas": ["IoT", "embedded systems", "edge computing", "wireless sensor networks"],
+  "bio": "Dr. Kavita Iyer established the Edge Intelligence Lab where she designs ultra-low-power embedded systems for agricultural and environmental monitoring. Her group developed a self-powered soil sensor node that harvests RF energy and transmits data over LoRaWAN, deployed across 50 farms in Karnataka. She leads a cross-institutional project on edge-AI for predictive maintenance in industrial IoT, running TinyML models on ARM Cortex-M microcontrollers. Her work on energy-aware task scheduling for edge clusters received the Best Paper award at SenSys.",
+  "keywords": ["IoT", "embedded", "edge computing", "wireless sensor", "LoRaWAN", "TinyML", "energy harvesting", "ARM", "sensor networks", "predictive maintenance"],
+  "papers": 42,
+  "citations": 2500,
+  "current_projects": 5,
+  "max_projects": 5,
+  "email": "kavita.iyer@university.edu"
+}

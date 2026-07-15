@@ -1,0 +1,13 @@
+{
+  "id": "prof_06",
+  "name": "Dr. Vikram Reddy",
+  "department": "CSE",
+  "research_areas": ["Cybersecurity", "network security", "malware analysis", "cryptography"],
+  "bio": "Dr. Vikram Reddy directs the Cyber Defense Lab where he develops intrusion detection systems using graph neural networks to model network traffic patterns. His group published one of the first studies on backdoor attacks against federated learning systems and proposed a provable defense based on differential privacy. He actively contributes to India's national CERT-In advisories and has analyzed over 500 malware samples targeting Indian banking infrastructure. His recent work on post-quantum cryptographic protocols for IoT devices is funded by SERB.",
+  "keywords": ["cybersecurity", "network security", "malware", "cryptography", "IDS", "graph neural network", "federated learning", "backdoor", "differential privacy", "post-quantum", "CERT-In"],
+  "papers": 55,
+  "citations": 3400,
+  "current_projects": 3,
+  "max_projects": 6,
+  "email": "vikram.reddy@university.edu"
+}

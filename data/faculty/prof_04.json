@@ -1,0 +1,13 @@
+{
+  "id": "prof_04",
+  "name": "Dr. Rohan Das",
+  "department": "ECE",
+  "research_areas": ["Computer Vision", "SLAM", "robotics", "autonomous navigation"],
+  "bio": "Dr. Rohan Das runs the Autonomous Perception Lab focusing on visual SLAM and sensor fusion for robotic navigation in GPS-denied environments. His group developed a lightweight monocular SLAM system that runs on embedded hardware for drone navigation in underground mines. He has published extensively on loop closure detection using learned visual descriptors and real-time 3D reconstruction from RGB-D streams. His lab maintains an indoor autonomous drone testbed and collaborates with DRDO on perception for defense robotics.",
+  "keywords": ["computer vision", "SLAM", "robotics", "autonomous", "navigation", "drone", "sensor fusion", "3D reconstruction", "visual odometry", "embedded", "ROS"],
+  "papers": 38,
+  "citations": 2100,
+  "current_projects": 3,
+  "max_projects": 5,
+  "email": "rohan.das@university.edu"
+}

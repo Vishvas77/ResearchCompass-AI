@@ -1,0 +1,13 @@
+{
+  "id": "prof_07",
+  "name": "Dr. Ananya Ghosh",
+  "department": "CSE",
+  "research_areas": ["Data Mining", "machine learning", "graph mining", "anomaly detection"],
+  "bio": "Dr. Ananya Ghosh heads the Data Intelligence Lab where she develops scalable graph mining algorithms for fraud detection and social network analysis. Her work on temporal graph neural networks for detecting money laundering patterns in financial transaction graphs was adopted by a major Indian bank. She pioneered a self-supervised framework for anomaly detection on dynamic graphs without labeled data. Her lab also maintains a public benchmark suite for fair graph learning that measures algorithmic bias in link prediction and node classification tasks.",
+  "keywords": ["data mining", "machine learning", "graph neural network", "anomaly detection", "fraud detection", "temporal graph", "social network", "financial", "fairness", "self-supervised", "GNN"],
+  "papers": 44,
+  "citations": 2900,
+  "current_projects": 2,
+  "max_projects": 5,
+  "email": "ananya.ghosh@university.edu"
+}

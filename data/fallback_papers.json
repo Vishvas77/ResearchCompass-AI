@@ -1,0 +1,82 @@
+{
+  "NLP": {
+    "trend_synthesis": "Recent NLP research clusters around three themes: efficient fine-tuning of large language models for domain adaptation, evaluation frameworks for LLM robustness on low-resource languages, and multimodal reasoning combining text with visual or structured inputs. The field is moving toward smaller but specialized models rather than scaling parameter counts.",
+    "papers": [
+      {"title": "LoRA: Low-Rank Adaptation of Large Language Models", "year": 2021, "citations": 8900, "theme": "efficient fine-tuning"},
+      {"title": "On the Robustness of Instruction-Tuned Models", "year": 2023, "citations": 340, "theme": "evaluation"},
+      {"title": "Training Language Models to Follow Instructions with Human Feedback", "year": 2022, "citations": 12000, "theme": "alignment"},
+      {"title": "Multimodal Chain-of-Thought Reasoning", "year": 2023, "citations": 2100, "theme": "multimodal reasoning"},
+      {"title": "A Survey of Hallucination in Large Language Models", "year": 2024, "citations": 850, "theme": "safety"},
+      {"title": "Retrieval-Augmented Generation for Knowledge-Intensive Tasks", "year": 2020, "citations": 15000, "theme": "RAG"},
+      {"title": "Fine-tuning Language Models for Low-Resource Languages", "year": 2023, "citations": 520, "theme": "low-resource"},
+      {"title": "Text-to-SQL with Large Language Models: A Survey", "year": 2024, "citations": 180, "theme": "structured reasoning"}
+    ]
+  },
+  "Computer Vision": {
+    "trend_synthesis": "Computer vision research is dominated by foundational vision transformers, self-supervised pretraining strategies, and domain adaptation from general to specialized (medical, satellite) imagery. Diffusion models have opened new frontiers in image generation. Efficient architectures for edge deployment and video understanding also feature prominently.",
+    "papers": [
+      {"title": "An Image is Worth 16x16 Words: Transformers for Image Recognition", "year": 2020, "citations": 45000, "theme": "vision transformer"},
+      {"title": "Segment Anything", "year": 2023, "citations": 6800, "theme": "segmentation"},
+      {"title": "Denoising Diffusion Probabilistic Models", "year": 2020, "citations": 18000, "theme": "generation"},
+      {"title": "Domain-Adversarial Training of Neural Networks", "year": 2016, "citations": 7200, "theme": "domain adaptation"},
+      {"title": "Attention U-Net: Learning Where to Look for the Pancreas", "year": 2018, "citations": 5400, "theme": "medical imaging"}
+    ]
+  },
+  "Cybersecurity": {
+    "trend_synthesis": "The cybersecurity landscape is shifting toward AI-powered threats and defenses. Key themes include adversarial robustness of ML models, backdoor attacks on federated learning, differential privacy guarantees, and post-quantum cryptography readiness. LLM-powered social engineering and LLM-assisted vulnerability detection are emerging frontiers.",
+    "papers": [
+      {"title": "Intriguing Properties of Neural Networks", "year": 2013, "citations": 11000, "theme": "adversarial examples"},
+      {"title": "Federated Learning: Strategies for Improving Communication Efficiency", "year": 2017, "citations": 9500, "theme": "federated learning"},
+      {"title": "BadNets: Identifying Vulnerabilities in the Machine Learning Model Supply Chain", "year": 2017, "citations": 2400, "theme": "backdoor attacks"},
+      {"title": "Deep Learning with Differential Privacy", "year": 2016, "citations": 5600, "theme": "differential privacy"},
+      {"title": "Post-Quantum Cryptography: Current State and Future Directions", "year": 2023, "citations": 290, "theme": "post-quantum"}
+    ]
+  },
+  "IoT": {
+    "trend_synthesis": "IoT research is converging with edge AI, with a focus on running inference on resource-constrained devices via TinyML and model quantization. Energy harvesting for battery-free sensors, LoRaWAN-based mesh networking, and federated learning at the edge are dominant themes.",
+    "papers": [
+      {"title": "TinyML: Machine Learning for Embedded Systems", "year": 2022, "citations": 1200, "theme": "edge AI"},
+      {"title": "LoRa: A Low-Power Wide-Area Network Technology", "year": 2023, "citations": 340, "theme": "networking"},
+      {"title": "Federated Learning on Edge Devices: A Survey", "year": 2021, "citations": 890, "theme": "federated edge"},
+      {"title": "Energy Harvesting for IoT: A Comprehensive Survey", "year": 2022, "citations": 470, "theme": "energy"}
+    ]
+  },
+  "Cloud Computing": {
+    "trend_synthesis": "Cloud research focuses on serverless computing patterns, carbon-aware workload scheduling, chaos engineering for microservice resilience, and multi-cloud orchestration. Kubernetes-native architectures dominate, with growing interest in eBPF-based observability and WebAssembly at the edge.",
+    "papers": [
+      {"title": "Kubernetes: Up and Running", "year": 2023, "citations": 1500, "theme": "orchestration"},
+      {"title": "Serverless Computing: One Step Forward, Two Steps Back", "year": 2019, "citations": 890, "theme": "serverless"},
+      {"title": "Chaos Engineering: Principles and Practice", "year": 2021, "citations": 670, "theme": "resilience"},
+      {"title": "Carbon-Aware Data Center Operations", "year": 2023, "citations": 210, "theme": "green computing"}
+    ]
+  },
+  "Reinforcement Learning": {
+    "trend_synthesis": "RL research is pivoting toward real-world deployment: safe RL with formal verification, multi-agent coordination for warehouse/logistics automation, and offline RL from static datasets. Model-based approaches are gaining ground over model-free for sample efficiency, and RL-from-human-feedback (RLHF) has become critical for LLM alignment.",
+    "papers": [
+      {"title": "Proximal Policy Optimization Algorithms", "year": 2017, "citations": 21000, "theme": "policy optimization"},
+      {"title": "Mastering the Game of Go with Deep Neural Networks", "year": 2016, "citations": 28000, "theme": "game playing"},
+      {"title": "Safe Reinforcement Learning: A Survey", "year": 2023, "citations": 410, "theme": "safety"},
+      {"title": "Multi-Agent Reinforcement Learning: A Survey", "year": 2022, "citations": 1800, "theme": "multi-agent"},
+      {"title": "Training Language Models to Follow Instructions", "year": 2022, "citations": 12000, "theme": "RLHF"}
+    ]
+  },
+  "5G": {
+    "trend_synthesis": "5G and beyond research centers on massive MIMO channel estimation, deep unfolding for signal processing, URLLC schemes for industrial IoT, and network slicing orchestration. AI-native 6G designs and integrated sensing-communication are emerging themes.",
+    "papers": [
+      {"title": "Massive MIMO Networks: Spectral, Energy, and Hardware Efficiency", "year": 2017, "citations": 3800, "theme": "MIMO"},
+      {"title": "Deep Unfolding for Communication Systems", "year": 2022, "citations": 520, "theme": "signal processing"},
+      {"title": "Network Slicing in 5G: A Survey", "year": 2023, "citations": 670, "theme": "network slicing"},
+      {"title": "URLLC in Industrial IoT: Challenges and Solutions", "year": 2023, "citations": 240, "theme": "URLLC"}
+    ]
+  },
+  "AI_general": {
+    "trend_synthesis": "Broad AI research themes include: foundational model architectures beyond transformers (state-space models, mixture-of-experts), AI governance and fairness audits, watermarking generative content, agentic workflows with tool use, and scaling laws for data-constrained regimes.",
+    "papers": [
+      {"title": "Attention Is All You Need", "year": 2017, "citations": 135000, "theme": "transformer"},
+      {"title": "Scaling Laws for Neural Language Models", "year": 2020, "citations": 5200, "theme": "scaling"},
+      {"title": "On the Opportunities and Risks of Foundation Models", "year": 2021, "citations": 3400, "theme": "risk"},
+      {"title": "Watermarking Generative AI Outputs", "year": 2023, "citations": 180, "theme": "safety"},
+      {"title": "Mamba: Linear-Time Sequence Modeling", "year": 2023, "citations": 1600, "theme": "architecture"}
+    ]
+  }
+}

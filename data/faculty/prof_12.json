@@ -1,0 +1,13 @@
+{
+  "id": "prof_12",
+  "name": "Dr. Srinivas Rao",
+  "department": "CSE",
+  "research_areas": ["Databases", "distributed systems", "consensus algorithms", "data streaming"],
+  "bio": "Dr. Srinivas Rao leads the Distributed Data Lab where he designs fault-tolerant consensus protocols for geo-replicated databases. His work on the 'QuorumShift' protocol demonstrated 40-percent latency reduction for cross-continent read-write transactions while maintaining strict serializability. He built a streaming SQL engine optimized for out-of-order event processing in IoT pipelines, handling 2 million events per second on commodity hardware. His group contributes actively to Apache Flink and maintains a benchmark suite for comparing distributed transaction concurrency control mechanisms.",
+  "keywords": ["databases", "distributed systems", "consensus", "streaming", "SQL", "serializability", "Paxos", "Raft", "IoT", "Apache Flink", "transactions", "geo-replication"],
+  "papers": 46,
+  "citations": 2600,
+  "current_projects": 2,
+  "max_projects": 4,
+  "email": "srinivas.rao@university.edu"
+}

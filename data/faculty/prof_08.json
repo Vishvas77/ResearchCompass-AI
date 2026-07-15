@@ -1,0 +1,13 @@
+{
+  "id": "prof_08",
+  "name": "Dr. Karthik Sundaram",
+  "department": "ECE",
+  "research_areas": ["AI", "reinforcement learning", "robotics", "multi-agent systems"],
+  "bio": "Dr. Karthik Sundaram leads the Autonomous Agents Lab where he develops deep reinforcement learning algorithms for multi-robot coordination in warehouse automation and search-and-rescue scenarios. His group created a distributed RL framework that allows heterogeneous robots to learn cooperative policies without centralized training data, reducing communication overhead by 80 percent over prior methods. He has deployed RL-based controllers on a fleet of 12 autonomous mobile robots at a Flipkart fulfillment center. His recent work on safe RL with formal verification of learned policies is funded by DST.",
+  "keywords": ["reinforcement learning", "RL", "robotics", "multi-agent", "autonomous", "deep RL", "coordination", "warehouse", "search-and-rescue", "formal verification"],
+  "papers": 36,
+  "citations": 1800,
+  "current_projects": 4,
+  "max_projects": 5,
+  "email": "karthik.sundaram@university.edu"
+}

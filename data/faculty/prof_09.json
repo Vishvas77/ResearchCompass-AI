@@ -1,0 +1,13 @@
+{
+  "id": "prof_09",
+  "name": "Dr. Swati Nair",
+  "department": "ECE",
+  "research_areas": ["Signal Processing", "5G", "MIMO", "channel estimation"],
+  "bio": "Dr. Swati Nair directs the Wireless Systems Lab where she develops signal processing techniques for massive MIMO and mmWave communications in 5G and beyond. Her group proposed a deep-unfolding architecture for channel estimation that matches the accuracy of iterative algorithms at a fraction of the compute cost, now being evaluated by a telecom equipment partner. She works extensively on non-orthogonal multiple access (NOMA) schemes for ultra-reliable low-latency communications in industrial IoT. Her lab maintains a software-defined radio testbed with 16-antenna arrays.",
+  "keywords": ["signal processing", "5G", "MIMO", "mmWave", "channel estimation", "deep unfolding", "NOMA", "URLLC", "wireless", "SDR", "beamforming"],
+  "papers": 40,
+  "citations": 2200,
+  "current_projects": 3,
+  "max_projects": 6,
+  "email": "swati.nair@university.edu"
+}

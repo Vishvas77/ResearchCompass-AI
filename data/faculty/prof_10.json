@@ -1,0 +1,13 @@
+{
+  "id": "prof_10",
+  "name": "Dr. Rajesh Pandey",
+  "department": "CSE",
+  "research_areas": ["Software Engineering", "cloud computing", "DevOps", "microservices"],
+  "bio": "Dr. Rajesh Pandey runs the Cloud Engineering Lab where he studies architectural patterns for building resilient microservice systems. His group developed a chaos engineering platform that automatically injects network latency and service failures to validate resilience policies in production Kubernetes clusters. He has published a widely-cited taxonomy of microservice anti-patterns derived from mining 2,000 open-source repositories. His ongoing work on carbon-aware workload scheduling in multi-cloud environments won the Green Computing Award at ICSE.",
+  "keywords": ["software engineering", "cloud", "DevOps", "microservices", "Kubernetes", "chaos engineering", "resilience", "serverless", "anti-pattern", "green computing", "CI/CD"],
+  "papers": 50,
+  "citations": 2800,
+  "current_projects": 2,
+  "max_projects": 5,
+  "email": "rajesh.pandey@university.edu"
+}

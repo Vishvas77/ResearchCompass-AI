@@ -1,0 +1,13 @@
+{
+  "id": "prof_15",
+  "name": "Dr. Sameer Bhatia",
+  "department": "ECE",
+  "research_areas": ["Computer Networks", "SDN", "network virtualization", "QoS"],
+  "bio": "Dr. Sameer Bhatia leads the Future Networks Lab where he designs software-defined networking controllers for multi-tenant data centers with guaranteed quality-of-service. His work on delay-bounded network slicing for 5G core networks has been adopted by a tier-1 Indian telecom operator. He developed an intent-based networking framework that uses natural language policies to configure network paths, bridging the gap between operator intent and low-level SDN rules. His group maintains a 40-node SDN testbed used for teaching and collaborative research across three institutions.",
+  "keywords": ["networking", "SDN", "network virtualization", "QoS", "5G core", "NFV", "network slicing", "data center", "OpenFlow", "P4", "telecom"],
+  "papers": 37,
+  "citations": 1900,
+  "current_projects": 2,
+  "max_projects": 5,
+  "email": "sameer.bhatia@university.edu"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "prof_03",
+  "name": "Dr. Arjun Mehta",
+  "department": "CSE",
+  "research_areas": ["Computer Vision", "medical imaging", "deep learning", "image segmentation"],
+  "bio": "Dr. Arjun Mehta heads the Medical Vision Lab where he develops deep learning models for automated diagnosis from radiology scans. His seminal work on attention-based segmentation of brain MRI lesions is deployed in five teaching hospitals across India. He has created a benchmark dataset of 200,000 annotated chest X-rays for multi-disease classification and pioneered few-shot domain adaptation techniques that allow models trained on one imaging modality to transfer to another with minimal labeled examples. His lab collaborates closely with AIIMS Delhi and Narayana Health.",
+  "keywords": ["computer vision", "medical imaging", "MRI", "segmentation", "deep learning", "CNN", "X-ray", "domain adaptation", "few-shot learning", "radiology", "U-Net", "attention"],
+  "papers": 48,
+  "citations": 3800,
+  "current_projects": 4,
+  "max_projects": 5,
+  "email": "arjun.mehta@university.edu"
+}

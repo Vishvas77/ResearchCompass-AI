@@ -1,0 +1,13 @@
+{
+  "id": "prof_14",
+  "name": "Dr. Manoj Pillai",
+  "department": "ECE",
+  "research_areas": ["VLSI design", "chip design", "low-power circuits", "hardware security"],
+  "bio": "Dr. Manoj Pillai directs the VLSI Architecture Lab where he designs energy-efficient ASICs and FPGA accelerators for deep learning inference at the edge. His group taped out a 7nm accelerator chip for transformer inference that achieves 15 TOPS/W, published at ISSCC. He also works on hardware trojan detection using side-channel analysis, developing a non-invasive method that uses power trace anomalies to detect malicious modifications in third-party IP cores. His lab is part of the MeitY-funded chip design center focusing on indigenous processor architectures.",
+  "keywords": ["VLSI", "chip design", "ASIC", "FPGA", "low-power", "hardware security", "accelerator", "deep learning", "side-channel", "transformer", "EDA"],
+  "papers": 33,
+  "citations": 1400,
+  "current_projects": 3,
+  "max_projects": 4,
+  "email": "manoj.pillai@university.edu"
+}
